@@ -1,0 +1,12 @@
+# Executáveis C (Linux/Mac sem extensão, Windows .exe)
+*.out
+*.exe
+a.out
+
+# Arquivos objeto e bibliotecas
+*.o
+*.a
+*.so
+
+# VS Code
+.vscode/
