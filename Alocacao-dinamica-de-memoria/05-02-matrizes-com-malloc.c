@@ -22,7 +22,6 @@ int main () {
     }
 
     //Essa matriz chamada ponteiros aqui na verdade eh a mesma coisa que ponteiro[i][j] = *(*(p + i) + j);
-
     //Vamos fazer a impressao pra ver se esta ocorrendo tudo certo;
 
     for (int a = 0; a < 3; a++) {

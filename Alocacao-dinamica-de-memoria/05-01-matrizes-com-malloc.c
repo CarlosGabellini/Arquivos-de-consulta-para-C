@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main () {
 
     short int linha_da_matriz = 3;
     short int coluna_da_matriz = 3;
+    srand(time(NULL));
 
     short int *matriz = (short int*) malloc(linha_da_matriz * coluna_da_matriz * sizeof(short int));
 
@@ -13,7 +15,7 @@ int main () {
     for (int i = 0; i < 3; i++) {
 
         for (int j = 0; j < 3; j++) {
-            matriz[i * coluna_da_matriz + j] = 1 + rand() % 10;
+            matriz[i * coluna_da_matriz + j] = 1 + rand() % 21;
         }
     }
 
